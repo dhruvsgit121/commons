@@ -75,6 +75,39 @@
 ```
 
 
+
+
+## <a href="https://github.com/mosip/commons/blob/master/kernel/kernel-authcodeflowproxy-api/pom.xml" style="background: url('image-url') repeat;">2. kernel/kernel-authcodeflowproxy-api (/kernel/kernel-authcodeflowproxy-api/pom.xml)</a>
+
+
+### 1. Lombok Version:
+
+#### Older:
+
+```xml
+<lombok.version>1.18.8</lombok.version>
+```
+
+#### Updated:
+
+```xml
+<lombok.version>1.18.30</lombok.version>
+```
+
+### 2. Jacoco Version:
+
+#### Older:
+
+```xml
+<jacoco.maven.plugin.version>0.8.5</jacoco.maven.plugin.version>
+```
+
+#### Updated:
+
+```xml
+<jacoco.maven.plugin.version>0.8.7</jacoco.maven.plugin.version>
+```
+
         
 
 
