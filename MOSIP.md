@@ -1,42 +1,29 @@
-# <a href="https://github.com/mosip/resident-services" style="background: url('image-url') repeat;">resident-services</a>
+# <a href="https://github.com/mosip/commons" style="background: url('image-url') repeat;">commons</a>
 
-## <a href="https://github.com/mosip/resident-services/blob/master/resident/pom.xml" style="background: url('image-url') repeat;">resident\pom.xml (Parent pom.xml)</a>
+<!-- ## <a href="https://github.com/mosip/resident-services/blob/master/resident/pom.xml" style="background: url('image-url') repeat;">resident\pom.xml (Parent pom.xml)</a> -->
 
-## 1. Maven
+## Changes that are common to every file.
 
-### Older version:
+### 1. Maven version.
+
+
+#### Older version:
 
 ```xml
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <maven.compiler.version>3.8.0</maven.compiler.version>
-    <maven.jar.plugin.version>3.0.2</maven.jar.plugin.version>
-    <maven.war.plugin.version>3.1.0</maven.war.plugin.version>
-    <maven.surefire.plugin.version>2.22.0</maven.surefire.plugin.version>
-    <maven.jacoco.version>0.8.5</maven.jacoco.version>
-    <maven.sonar.plugin.version>3.7.0.1746</maven.sonar.plugin.version>
-    <maven.javadoc.version>3.2.0</maven.javadoc.version>
-    <maven-shade-plugin.version>2.3</maven-shade-plugin.version>
 ```
 
-### Updated version:
+#### Updated version:
 
 ```xml
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-    <maven.compiler.version>3.8.1</maven.compiler.version>
-    <maven.jar.plugin.version>3.3.0</maven.jar.plugin.version>
-    <maven.war.plugin.version>3.4.1-SNAPSHOT</maven.war.plugin.version>
-    <maven.surefire.plugin.version>3.2.5</maven.surefire.plugin.version>
-    <maven.jacoco.version>0.8.8</maven.jacoco.version>
-    <maven.sonar.plugin.version>7.31.0.34839</maven.sonar.plugin.version>
-    <maven.javadoc.version>3.6.3</maven.javadoc.version>
-    <maven-shade-plugin.version>3.3.0</maven-shade-plugin.version>
 ```
 
-## 2. Spring boot version and its related
+### 2. Spring boot and its related component version.
 
-### Older:
+#### Older:
 
 ```xml
 <spring.boot.version>2.0.2.RELEASE</spring.boot.version>
@@ -45,7 +32,7 @@
 <spring-cloud-config.version>2.0.0.RELEASE</spring-cloud-config.version>
 ```
 
-### Updated:
+#### Updated:
 
 ```xml
 <spring.boot.version>2.7.18</spring.boot.version>
@@ -54,7 +41,46 @@
 <spring-cloud-config.version>3.1.3</spring-cloud-config.version>
 ```
 
-## 3. h2:
+
+
+## <a href="https://github.com/mosip/commons/blob/master/kernel/kernel-core/pom.xml" style="background: url('image-url') repeat;">1. kernel/kernel-core (/kernel/kernel-core/pom.xml)</a>
+
+
+### 1. Lombok Version:
+
+#### Older:
+
+```xml
+<lombok.version>1.18.8</lombok.version>
+```
+
+#### Updated:
+
+```xml
+<lombok.version>1.18.30</lombok.version>
+```
+
+### 2. Jacoco Version:
+
+#### Older:
+
+```xml
+<jacoco.maven.plugin.version>0.8.5</jacoco.maven.plugin.version>
+```
+
+#### Updated:
+
+```xml
+<jacoco.maven.plugin.version>0.8.7</jacoco.maven.plugin.version>
+```
+
+
+        
+
+
+
+
+<!-- ## 3. h2:
 
 ### Older:
 
@@ -173,4 +199,4 @@
 ```xml
 <version>${spring.boot.version}</version>
 ```
-
+ -->
