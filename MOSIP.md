@@ -42,13 +42,68 @@
 ```
 
 
-
-## <a href="https://github.com/mosip/commons/blob/master/kernel/kernel-core/pom.xml" style="background: url('image-url') repeat;">1. kernel/kernel-core (/kernel/kernel-core/pom.xml)</a>
-
-
-### 1. Lombok Version:
+### 3. Lombok Version:
 
 #### Older:
+
+```xml
+<lombok.version>1.18.8</lombok.version>
+```
+
+#### Updated:
+
+```xml
+<lombok.version>1.18.30</lombok.version>
+```
+
+### 4. Jacoco Version:
+
+#### Older:
+
+```xml
+<jacoco.maven.plugin.version>0.8.5</jacoco.maven.plugin.version>
+```
+
+#### Updated:
+
+```xml
+<jacoco.maven.plugin.version>0.8.7</jacoco.maven.plugin.version>
+```
+
+### 5. Junit Version:
+
+#### Older:
+
+```xml
+<junit.version>4.12</junit.version>
+```
+
+#### Updated:
+
+```xml
+<junit.version>4.13.1</junit.version>
+```
+
+### 6. Added Junit Dependency:
+
+
+```xml
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>${junit.version}</version>
+</dependency>
+```
+
+
+
+
+<!-- ## <a href="https://github.com/mosip/commons/blob/master/kernel/kernel-core/pom.xml" style="background: url('image-url') repeat;">1. kernel-core (/kernel/kernel-core/pom.xml)</a>
+
+
+### No other changes needed. -->
+
+<!-- #### Older:
 
 ```xml
 <lombok.version>1.18.8</lombok.version>
@@ -72,10 +127,10 @@
 
 ```xml
 <jacoco.maven.plugin.version>0.8.7</jacoco.maven.plugin.version>
-```
+``` -->
 
 
-
+<!-- 
 
 ## <a href="https://github.com/mosip/commons/blob/master/kernel/kernel-authcodeflowproxy-api/pom.xml" style="background: url('image-url') repeat;">2. kernel/kernel-authcodeflowproxy-api (/kernel/kernel-authcodeflowproxy-api/pom.xml)</a>
 
@@ -109,8 +164,38 @@
 ```
 
         
+## <a href="https://github.com/mosip/commons/blob/master/kernel/kernel-biometrics-api/pom.xml" style="background: url('image-url') repeat;">3. kernel/kernel-biometrics-api (/kernel/kernel-biometrics-api/pom.xml)</a>
 
 
+### 1. Lombok Version:
+
+#### Older:
+
+```xml
+<lombok.version>1.18.8</lombok.version>
+```
+
+#### Updated:
+
+```xml
+<lombok.version>1.18.30</lombok.version>
+```
+
+### 2. Jacoco Version:
+
+#### Older:
+
+```xml
+<jacoco.maven.plugin.version>0.8.5</jacoco.maven.plugin.version>
+```
+
+#### Updated:
+
+```xml
+<jacoco.maven.plugin.version>0.8.7</jacoco.maven.plugin.version>
+```
+
+ -->
 
 
 <!-- ## 3. h2:
